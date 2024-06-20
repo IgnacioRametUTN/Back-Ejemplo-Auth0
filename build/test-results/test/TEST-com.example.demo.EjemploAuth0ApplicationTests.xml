@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.demo.EjemploAuth0ApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-06-20T16:40:48" hostname="DESKTOP-S1TPUTN" time="0.712">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.demo.EjemploAuth0ApplicationTests" time="0.712"/>
+  <system-out><![CDATA[13:40:45.413 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.demo.EjemploAuth0ApplicationTests]: EjemploAuth0ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:40:45.507 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.demo.EjemploAuth0Application for test class com.example.demo.EjemploAuth0ApplicationTests
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.0)
+
+2024-06-20T13:40:45.874-03:00  INFO 21004 --- [ejemploAuth0] [    Test worker] c.e.demo.EjemploAuth0ApplicationTests    : Starting EjemploAuth0ApplicationTests using Java 17.0.11 with PID 21004 (started by siriu in C:\Users\siriu\OneDrive\Documentos\GitHub\Back-Ejemplo-Auth0)
+2024-06-20T13:40:45.875-03:00  INFO 21004 --- [ejemploAuth0] [    Test worker] c.e.demo.EjemploAuth0ApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-06-20T13:40:48.091-03:00  INFO 21004 --- [ejemploAuth0] [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@677cc4e8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4c6bba7d, org.springframework.security.web.context.SecurityContextHolderFilter@37fef327, org.springframework.security.web.header.HeaderWriterFilter@794c5f5e, org.springframework.web.filter.CorsFilter@41e8d917, org.springframework.security.web.authentication.logout.LogoutFilter@51af8049, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@7eee6c13, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@55951fcd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@b5312df, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2ae5bd34, org.springframework.security.web.access.ExceptionTranslationFilter@1552da16, org.springframework.security.web.access.intercept.AuthorizationFilter@2f86f9cf]
+2024-06-20T13:40:48.584-03:00  INFO 21004 --- [ejemploAuth0] [    Test worker] c.e.demo.EjemploAuth0ApplicationTests    : Started EjemploAuth0ApplicationTests in 2.925 seconds (process running for 4.168)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
